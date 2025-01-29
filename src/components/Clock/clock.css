@@ -1,0 +1,86 @@
+.watch {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 200px;
+  gap: 10px;
+}
+
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: 100% 100%;
+  transition: transform 0.05s linear;
+  background-color: #333;
+}
+
+.hour-hand {
+  width: 6px;
+  height: 40px;
+  transform-origin: 100% 100%;
+  background-color: #000;
+}
+
+.minute-hand {
+  width: 4px;
+  height: 60px;
+  background-color: #555;
+}
+
+.second-hand {
+  width: 2px;
+  height: 70px;
+  background-color: red;
+}
+
+.hour-tick,
+.minute-tick {
+  position: absolute;
+  width: 2px;
+  background-color: #333;
+}
+
+.hour-tick {
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background-color: #333;
+  transform-origin: 100% 100%;
+  transform: rotate(0deg) translateX(85px);
+}
+
+.minute-tick {
+  height: 5px;
+}
+
+.clock-face::before {
+  content: "";
+  position: absolute;
+  top: 49.5%;
+  left: 52%;
+  width: 6px;
+  height: 6px;
+  background-color: #333;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}

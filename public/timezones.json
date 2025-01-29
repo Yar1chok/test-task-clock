@@ -1,0 +1,15 @@
+{
+  "timezones": [
+    { "city": "Калининград", "timezone": "UTC+2" },
+    { "city": "Москва", "timezone": "UTC+3" },
+    { "city": "Самара", "timezone": "UTC+4" },
+    { "city": "Екатеринбург", "timezone": "UTC+5" },
+    { "city": "Омск", "timezone": "UTC+6" },
+    { "city": "Красноярск", "timezone": "UTC+7" },
+    { "city": "Иркутск", "timezone": "UTC+8" },
+    { "city": "Якутск", "timezone": "UTC+9" },
+    { "city": "Владивосток", "timezone": "UTC+10" },
+    { "city": "Магадан", "timezone": "UTC+11" },
+    { "city": "Камчатка", "timezone": "UTC+12" }
+  ]
+}
