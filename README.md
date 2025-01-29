@@ -31,7 +31,7 @@
 1. Клонируйте репозиторий
 
    ```bash
-   git clone https://your-repository-url
+   git clone https://github.com/Yar1chok/test-task-clock.git
 
    ```
 
